@@ -1,0 +1,74 @@
+body{
+  color: #000;overflow-x: hidden;
+  height: 100%;
+/* background-color: rgba(230, 230, 247, 0.38);
+background-image: radial-gradient(#444cf7 0.2px, rgba(230, 230, 247, 0.38) 0.2px);
+background-size: 4px 4px; */
+
+background-image: url('../Imgs/groovepaper.png');
+
+
+}
+
+.card{
+  padding: 30px 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none !important;
+  box-shadow: 0 6px 12px 0 rgba(0,0,0,0.2)
+}
+
+.blue-text{
+  color: #027bc0 
+}
+
+.form-control-label{
+  margin-bottom: 0
+}
+
+input, textarea, button{
+  padding: 8px 15px;
+  border-radius: 5px !important;
+  margin: 5px 0px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  font-size: 18px !important;
+  font-weight: 300
+}
+
+input:focus, textarea:focus{
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1px solid #005691 ;
+  outline-width: 0;
+  font-weight: 400
+}
+
+.btn-block{
+  text-transform: uppercase;
+  font-size: 15px !important;
+  font-weight: 400;
+  height: 43px;
+  cursor: pointer
+}
+
+.btn-block:hover{
+  color: #005691 !important
+}
+
+button:focus{
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  outline-width: 0}
+
+  /* Remove hover effect for disabled buttons */
+.btn-block:disabled {
+  cursor: not-allowed; /* Change the cursor style for disabled buttons */
+  opacity: 0.6; /* Make disabled buttons appear visually disabled */
+  color: #000; /* Reset the text color to the default when disabled */
+
+  /* You can add more styles specific to disabled buttons here */
+}
+
