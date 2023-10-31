@@ -1,4 +1,4 @@
 [build]
-  base = "public"   # Specify the base directory of your project
+  base = "server"   # Specify the base directory of your project
   publish = "public"  # Specify the directory to publish
   command = "npm run build"  # Specify your build command
