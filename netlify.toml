@@ -1,4 +1,5 @@
 [build]
-  base = "server"   # Specify the base directory of your project
-  publish = "public"  # Specify the directory to publish
-  command = "npm run build"  # Specify your build command
+  base = "."
+  publish = "." 
+  command = "npm install"  
+functions = "netlify/functions"
